@@ -1,0 +1,30 @@
+{
+  "manifests": {
+    "digital-artwork/cqrs-bundle": {
+      "manifest": {
+        "bundles": {
+          "DigitalArtwork\\Bundle\\CqrsBundle": [
+            "all"
+          ]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        },
+        "post-install-output": [
+          "  * Get ready you're nearly there"
+        ]
+      },
+      "files": {
+        "config/routes/cqrs_bundle.yaml": {
+          "contents": [
+            "digital_artwork_cqrs_routes:",
+            "    resource: '@CqrsBundle/Resources/config/routing/routes.yaml'",
+            ""
+          ],
+          "executable": false
+        }
+      },
+      "ref": "8a4c5b1295a8328d181083b20bcdf24003804f18"
+    }
+  }
+}

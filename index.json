@@ -1,0 +1,14 @@
+{
+  "recipes": {
+    "digital-artwork/cqrs-bundle": [
+      "1.0"
+    ]
+  },
+  "branch": "main",
+  "is_contrib": true,
+  "_links": {
+    "repository": "github.com/tschmidtdev/sf-recipes",
+    "origin_template": "{package}:{version}@github.com/tschmidtdev/sf-recipes:main",
+    "recipe_template": "https://api.github.com/repos/tschmidtdev/sf-recipes/contents/{package_dotted}.{version}.json"
+  }
+}
