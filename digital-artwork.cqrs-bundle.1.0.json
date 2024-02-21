@@ -3,7 +3,7 @@
     "digital-artwork/cqrs-bundle": {
       "manifest": {
         "bundles": {
-          "DigitalArtwork\\Bundle\\CqrsBundle": [
+          "DigitalArtwork\\Bundle\\CqrsBundle\\CqrsBundle": [
             "all"
           ]
         },
